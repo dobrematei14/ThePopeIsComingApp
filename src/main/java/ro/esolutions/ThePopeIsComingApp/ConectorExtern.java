@@ -13,7 +13,7 @@ public class ConectorExtern
     @GetMapping("/churches/{month}")
     public String getAllChurches(@PathVariable String month)
     {
-        String answer="Bisericile mele sunt: ";
+        String answer="The churches where the pope will be are: ";
 
         Biserica CatedralaMN=new Biserica();
         CatedralaMN.nume="Catedrala Mantuirii Neamului";
