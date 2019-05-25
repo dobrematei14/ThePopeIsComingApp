@@ -18,27 +18,27 @@ public class ConectorExtern
         Biserica CatedralaMN=new Biserica();
         CatedralaMN.nume="Catedrala Mantuirii Neamului";
         CatedralaMN.tipReligie="Ortodox";
-        CatedralaMN.luna="Ianuarie";
+        CatedralaMN.luna="January";
 
         Biserica SfIosif=new Biserica();
         SfIosif.nume="Catedrala Sf Iosif";
         SfIosif.tipReligie="Catolica";
-        SfIosif.luna="Februarie";
+        SfIosif.luna="February";
 
         Biserica Kretzulescu=new Biserica();
         Kretzulescu.nume="Biserica Kretzulescu";
         Kretzulescu.tipReligie="Ortodox";
-        Kretzulescu.luna="Decembrie";
+        Kretzulescu.luna="December";
 
         Biserica Amzei=new Biserica();
         Amzei.nume="Biserica Amzei";
         Amzei.tipReligie="Ortodox";
-        Amzei.luna="Martie";
+        Amzei.luna="March";
 
         Biserica Italiana=new Biserica();
         Italiana.nume="Biseica Italiana";
         Italiana.tipReligie="Catolica";
-        Italiana.luna="Aprilie";
+        Italiana.luna="June";
 
         List<Biserica> biserici=new ArrayList<>();
         biserici.add(CatedralaMN);
