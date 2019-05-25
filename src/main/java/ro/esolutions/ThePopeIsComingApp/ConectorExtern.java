@@ -12,6 +12,7 @@ public class ConectorExtern
         Biserica CatedralaMN=new Biserica();
         CatedralaMN.nume="Catedrala Mantuirii Neamului";
         CatedralaMN.tipReligie="Ortodox";
+        CatedralaMN.luna="Ianuarie";
         return "Bisericile mele sunt: " +CatedralaMN.nume;
     }
 }
